@@ -12,7 +12,7 @@
 
   keymaps = [
     {
-      mode = ["n"];
+      mode = "n";
       key = "<A-1>";
       action = ":NvimTreeToggle<CR>";
       options = {

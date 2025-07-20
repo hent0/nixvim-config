@@ -1,5 +1,5 @@
 {
-  plugins.lsp-format = {
+  plugins.neoscroll = {
     enable = true;
   };
 }

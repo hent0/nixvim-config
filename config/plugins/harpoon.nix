@@ -10,7 +10,7 @@
 
   keymaps = [
     {
-      mode = ["n"];
+      mode = "n";
       key = "<leader>a";
       action = "<cmd>lua require('harpoon'):list():add()<CR>";
       options = {
@@ -18,7 +18,7 @@
       };
     }
     {
-      mode = ["n"];
+      mode = "n";
       key = "<C-e>";
       action = "<cmd>lua require('harpoon').ui:toggle_quick_menu(require('harpoon'):list())<CR>";
       options = {
@@ -26,7 +26,7 @@
       };
     }
     {
-      mode = ["n"];
+      mode = "n";
       key = "<C-j>";
       action = "<cmd>lua require('harpoon'):list():select(1)<CR>";
       options = {
@@ -34,7 +34,7 @@
       };
     }
     {
-      mode = ["n"];
+      mode = "n";
       key = "<C-k>";
       action = "<cmd>lua require('harpoon'):list():select(2)<CR>";
       options = {
@@ -42,7 +42,7 @@
       };
     }
     {
-      mode = ["n"];
+      mode = "n";
       key = "<C-l>";
       action = "<cmd>lua require('harpoon'):list():select(3)<CR>";
       options = {
@@ -50,7 +50,7 @@
       };
     }
     {
-      mode = ["n"];
+      mode = "n";
       key = "<C-;>";
       action = "<cmd>lua require('harpoon'):list():select(4)<CR>";
       options = {

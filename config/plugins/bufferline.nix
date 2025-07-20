@@ -11,7 +11,7 @@
 
   keymaps = [
     {
-      mode = ["n"];
+      mode = "n";
       key = "<Tab>";
       action = ":BufferLineCycleNext<CR>";
       options = {
@@ -20,7 +20,7 @@
       };
     }
     {
-      mode = ["n"];
+      mode = "n";
       key = "<S-Tab>";
       action = ":BufferLineCyclePrev<CR>";
       options = {
@@ -29,7 +29,7 @@
       };
     }
     {
-      mode = ["n"];
+      mode = "n";
       key = "<C-x>";
       action = ":Bdelete<CR>";
       options = {
