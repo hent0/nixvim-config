@@ -21,6 +21,11 @@
         markdown_oxide.enable = true;
         nil_ls.enable = true;
         tailwindcss.enable = true;
+        rust_analyzer = {
+          enable = true;
+          installCargo = true;
+          installRustc = true;
+        };
       };
 
       keymaps = {

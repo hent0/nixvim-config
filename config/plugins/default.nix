@@ -5,10 +5,11 @@
     ./gitsigns.nix
     ./harpoon.nix
     ./lualine.nix
+    ./neoscroll.nix
     ./nvim-tree.nix
     ./render-markdown.nix
     ./telescope.nix
     ./todo-comments.nix
-    ./neoscroll.nix
+    ./trouble.nix
   ];
 }
