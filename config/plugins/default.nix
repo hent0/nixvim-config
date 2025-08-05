@@ -9,6 +9,7 @@
     ./nvim-tree.nix
     ./render-markdown.nix
     ./telescope.nix
+    ./tmux-navigator.nix
     ./todo-comments.nix
     ./trouble.nix
   ];
