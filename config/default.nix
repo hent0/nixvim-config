@@ -18,7 +18,9 @@
   };
 
   diagnostic.settings = {
-    update_in_insert = true;
+    virtual_text = true;
+    virtual_lines.current_line = false;
+    update_in_insert = false;
     severity_sort = true;
     float = {
       border = "rounded";

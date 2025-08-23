@@ -2,6 +2,7 @@
   # Import all your configuration modules here
   imports = [
     ./bufferline.nix
+    ./comment.nix
     ./gitsigns.nix
     ./harpoon.nix
     ./lualine.nix
